@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="604.0" prefWidth="794.0" scaleShape="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.ControllerCreditos">
+    <children>
+      <ImageView fitHeight="670.0" fitWidth="833.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Creditos.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btt_atras1_1" layoutX="14.0" layoutY="565.0" mnemonicParsing="false" onAction="#btt_ruta1_1" prefHeight="72.0" prefWidth="163.0" text="Inicio">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="btt_Salir" layoutX="295.0" layoutY="565.0" mnemonicParsing="false" onAction="#btt_Salir" prefHeight="75.0" prefWidth="163.0" text="Salir">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Label layoutX="496.0" layoutY="351.0" prefHeight="44.0" prefWidth="323.0" text="Diego Rodríguez ">
+         <font>
+            <Font name="Algerian" size="37.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
